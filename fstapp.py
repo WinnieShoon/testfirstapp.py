@@ -29,9 +29,3 @@ if st.checkbox('Show dataframe'):
        columns=['a', 'b', 'c'])
 
     chart_data
-    
-    option = st.selectbox(
-    'Which number do you like best?',
-     df['first column'])
-
-'You selected: ', option
